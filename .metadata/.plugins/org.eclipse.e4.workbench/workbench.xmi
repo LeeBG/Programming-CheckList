@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Ln7fgS37Eeu5Ur1tJ6miJA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Ln8GkC37Eeu5Ur1tJ6miJA" bindingContexts="_Ln8GmS37Eeu5Ur1tJ6miJA">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CoolSMS.java&quot; tooltip=&quot;Test/src/test/CoolSMS.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Test/src/test/CoolSMS.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExampleSend.java&quot; tooltip=&quot;Test/src/test/ExampleSend.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Test/src/test/ExampleSend.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Message.class&quot; tooltip=&quot;net.nurigo.java_sdk.api.Message&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=Test/lib\/javaSDK-2.2.jar&amp;lt;net.nurigo.java_sdk.api(Message.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Message.java&quot; tooltip=&quot;Test/src/test/Message.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Test/src/test/Message.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_Ln8GkC37Eeu5Ur1tJ6miJA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_MNCXsS37Eeu5Ur1tJ6miJA" label="%trimmedwindow.label.eclipseSDK" x="712" y="-8" width="736" height="916">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Ln8GkC37Eeu5Ur1tJ6miJA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_MNCXsS37Eeu5Ur1tJ6miJA" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="736" height="916">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -10,7 +10,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1606184254067"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
+    <tags>shellMinimized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_MNCXsS37Eeu5Ur1tJ6miJA" selectedElement="_MNC-wC37Eeu5Ur1tJ6miJA" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_MNC-wC37Eeu5Ur1tJ6miJA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_M3UDwC37Eeu5Ur1tJ6miJA">
         <children xsi:type="advanced:Perspective" xmi:id="_M3UDwC37Eeu5Ur1tJ6miJA" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_M3UDwS37Eeu5Ur1tJ6miJA" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -118,7 +118,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_M3UDzy37Eeu5Ur1tJ6miJA" containerData="6838" selectedElement="_M3UD0C37Eeu5Ur1tJ6miJA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_M3UDzy37Eeu5Ur1tJ6miJA" containerData="6838" selectedElement="_M3UD1y37Eeu5Ur1tJ6miJA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_M3UD0C37Eeu5Ur1tJ6miJA" containerData="7500" selectedElement="_M3UD0S37Eeu5Ur1tJ6miJA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_M3UD0S37Eeu5Ur1tJ6miJA" elementId="org.eclipse.ui.editorss" containerData="8732" ref="_M2pVYC37Eeu5Ur1tJ6miJA"/>
                 <children xsi:type="basic:PartStack" xmi:id="_M3UD0i37Eeu5Ur1tJ6miJA" elementId="right" containerData="1268" selectedElement="_M3UD0y37Eeu5Ur1tJ6miJA">
@@ -218,8 +218,9 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
+        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_uWlvkC3-EeuxhNK35pSZwg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CoolSMS.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CoolSMS.java&quot; partName=&quot;CoolSMS.java&quot; title=&quot;CoolSMS.java&quot; tooltip=&quot;Test/src/test/CoolSMS.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Test/src/test/CoolSMS.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;147&quot; selectionTopPixel=&quot;1474&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CoolSMS.java&quot; partName=&quot;CoolSMS.java&quot; title=&quot;CoolSMS.java&quot; tooltip=&quot;Test/src/test/CoolSMS.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Test/src/test/CoolSMS.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1912&quot; selectionTopPixel=&quot;1039&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -227,7 +228,7 @@
           <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_2fco4C4FEeuACa1iA6M1qw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ExampleSend.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExampleSend.java&quot; partName=&quot;ExampleSend.java&quot; title=&quot;ExampleSend.java&quot; tooltip=&quot;Test/src/test/ExampleSend.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Test/src/test/ExampleSend.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;627&quot; selectionTopPixel=&quot;40&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExampleSend.java&quot; partName=&quot;ExampleSend.java&quot; title=&quot;ExampleSend.java&quot; tooltip=&quot;Test/src/test/ExampleSend.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Test/src/test/ExampleSend.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;627&quot; selectionTopPixel=&quot;324&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -403,7 +404,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MknxQC37Eeu5Ur1tJ6miJA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DmS1QC4EEeuACa1iA6M1qw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LpCS2C37Eeu5Ur1tJ6miJA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RrpiMC4LEeuFOLJMXZ4VMQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LpCS2C37Eeu5Ur1tJ6miJA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MkoYUC37Eeu5Ur1tJ6miJA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -434,7 +435,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Mko_Yi37Eeu5Ur1tJ6miJA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DmV4kC4EEeuACa1iA6M1qw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_LpBExy37Eeu5Ur1tJ6miJA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RrysIC4LEeuFOLJMXZ4VMQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_LpBExy37Eeu5Ur1tJ6miJA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MkpmcC37Eeu5Ur1tJ6miJA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2661,7 +2662,7 @@
   <addons xmi:id="_Ln8GpS37Eeu5Ur1tJ6miJA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_Ln8Gpi37Eeu5Ur1tJ6miJA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_LoL-MC37Eeu5Ur1tJ6miJA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_RAdQIS4LEeuFOLJMXZ4VMQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_LoybIC37Eeu5Ur1tJ6miJA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_LoybIS37Eeu5Ur1tJ6miJA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
