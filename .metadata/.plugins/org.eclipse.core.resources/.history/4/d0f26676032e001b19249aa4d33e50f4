@@ -1,0 +1,53 @@
+package test;
+
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class CoolSMS extends JFrame{
+	private Container c;
+	private JLabel la_phoneNum,la_message;
+	private JButton send,init;		//전송 초기화
+	private JTextField phoneT,messageT;
+	private JPanel jp;
+	private GridLayout grid;
+	public CoolSMS() {
+		setTitle("CoolSMS");
+		setSize(400,300);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		grid = new GridLayout(3,2);
+		grid.setVgap(1);
+		jp = new JPanel();
+		
+		jp.setLayout(grid);
+		
+		c = getContentPane();
+		la_phoneNum = new JLabel("전화번호");
+		la_message = new JLabel("메시지");
+		send = new JButton("전송");
+		init = new JButton("초기화");
+		phoneT = new JTextField("");
+		messageT = new JTextField("");
+		
+		c.add(jp);
+		jp.add(la_phoneNum);
+		jp.add(phoneT);
+		jp.add(la_message);
+		jp.add(messageT);
+		jp.add(send);
+		jp.add(init);
+		
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new CoolSMS();
+	}
+
+}
