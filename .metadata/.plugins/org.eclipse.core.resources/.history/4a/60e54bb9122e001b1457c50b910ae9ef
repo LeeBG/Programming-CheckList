@@ -70,13 +70,12 @@ public class CoolSMS extends JFrame implements ActionListener {
 		ExampleSend ex = new ExampleSend();
 
 		if (btn.getText().equals("전송")) {
-			ex.SendM(phoneT.getText(), messageT.getText());
-			
-			if(ex.getErr()==false) {
+			if (ex.getErr() == true) {
+				ex.SendM(phoneT.getText(), messageT.getText());
 				JOptionPane.showMessageDialog(null, "메시지가 전송되었습니다", "전송완료", JOptionPane.PLAIN_MESSAGE);
-			}else
-				JOptionPane.showMessageDialog(null, "메시지가 전송실패", "전송실패", JOptionPane.WARNING_MESSAGE);
-			
+			} else {
+				JOptionPane.showMessageDialog(null, "메시지가 전송실패", "전송실패", JOptionPane.PLAIN_MESSAGE);
+			}
 		} else if (btn.getText().equals("초기화")) {
 			phoneT.setText(null);
 			messageT.setText(null);

@@ -1,9 +1,6 @@
 package test;
 
 import java.util.HashMap;
-
-import javax.swing.LayoutStyle;
-
 import org.json.simple.JSONObject;
 import net.nurigo.java_sdk.api.Message;
 import net.nurigo.java_sdk.exceptions.CoolsmsException;
@@ -37,19 +34,10 @@ public class ExampleSend {
 			// 3번 DB insert
 			err = false;
 			System.out.println(obj.toString());
-//			String er[] = obj.toString().split(regex)
-			String er[] = obj.toString().split(":");
-			if(er[er.length-1].equals("1}")) {
-				err=true;
-				System.out.println(err);
-			}
 		} catch (CoolsmsException e) {
 			err = true;
 			System.out.println(e.getMessage());
 			System.out.println(e.getCode());
 		}
-	}
-	public static void main(String[] args) {
-		SendM("01085391848", "HI");
 	}
 }

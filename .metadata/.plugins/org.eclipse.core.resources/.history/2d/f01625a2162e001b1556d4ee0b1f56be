@@ -24,7 +24,7 @@ public class ExampleSend {
 		// 4 params(to, from, type, text) are mandatory. must be filled
 		HashMap<String, String> params = new HashMap<String, String>();
 		params.put("to", to);
-		params.put("from", "01085391848");
+		params.put("from", "0108539184");
 		params.put("type", "SMS");
 		params.put("text", text);
 		params.put("app_version", "test app 1.2"); // application name and version
@@ -39,10 +39,12 @@ public class ExampleSend {
 			System.out.println(obj.toString());
 //			String er[] = obj.toString().split(regex)
 			String er[] = obj.toString().split(":");
-			if(er[er.length-1].equals("1}")) {
+			System.out.println(er[er.length-1]);
+			if(er[er.length-1].equals(":1}")) {
 				err=true;
 				System.out.println(err);
 			}
+			System.out.println(err);
 		} catch (CoolsmsException e) {
 			err = true;
 			System.out.println(e.getMessage());

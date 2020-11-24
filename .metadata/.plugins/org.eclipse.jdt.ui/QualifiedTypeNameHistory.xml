@@ -10,5 +10,8 @@
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="javax.swing.GroupLayout.Alignment"/>
     <fullyQualifiedTypeName name="test.ExampleSend"/>
+    <fullyQualifiedTypeName name="javax.swing.LayoutStyle"/>
 </qualifiedTypeNameHistroy>
